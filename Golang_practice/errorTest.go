@@ -9,7 +9,7 @@ func division(x, y int) (int, error, error) {
 		return 0, nil, errors.New("cannot divide by zero")
 	}
 	if x%y != 0 {
-		remainder := errors.New("chere is a remainder")
+		remainder := errors.New("there is a remainder")
 		return x / y, remainder, nil
 	} 
 	return x / y, nil, nil
