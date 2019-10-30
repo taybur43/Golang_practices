@@ -10,7 +10,7 @@ func main(){
 	fmt.Println("Starting from here")
 	zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
     log.Print("hello world")
-	test,rem,err := division(1,3)
+	test,rem,err := division(3,0)
     if err != nil {
 		log.Fatal(err)
 	}else{
